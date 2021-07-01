@@ -6,12 +6,10 @@ const {height, width} = Dimensions.get('window');
 const styles = {
   mainContainer: {
     width: width,
-    height:40,
-  //  height:
-   //   Platform.OS === 'ios' ? tabHeight + statusBarHeight - 12 : tabHeight,
-  //  paddingTop: Platform.OS === 'ios' ? statusBarHeight - 10 : 0,
+    height: 40,
+
     flexDirection: 'row',
-    
+
     zIndex: 2,
     shadowColor: '#000',
     shadowOffset: {
@@ -19,7 +17,7 @@ const styles = {
       height: 2,
     },
     shadowOpacity: 0.25,
-    shadowRadius: 3.84,
+    shadowRadius: 4,
     elevation: 5,
     backgroundColor: color.header,
   },
@@ -28,14 +26,12 @@ const styles = {
     zIndex: 3,
     flexDirection: 'row',
     alignItems: 'center',
-   // paddingBottom: 5,
   },
   leftHeaderContainer: {
-  //  marginTop: isIphoneX() ? 15 : 0,
     width: 200,
     alignItems: 'center',
     justifyContent: 'center',
-    flexDirection:'row'
+    flexDirection: 'row',
   },
-}
+};
 export default styles;

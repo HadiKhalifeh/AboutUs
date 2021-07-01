@@ -12,11 +12,9 @@ export default class Header extends Component {
               <TouchableOpacity style={ {
         height: 50,
         justifyContent: 'center',
-        // width: 40,
-        padding: 10,
-        paddingLeft: 15,
-        paddingRight: 8,
-        paddingTop:13,
+        padding:7,
+        paddingBottom:5
+    
     }}>
           <Image style={{width:15,height:15,}} source={require('../Assets/back-button.png')}/>
           </TouchableOpacity>
